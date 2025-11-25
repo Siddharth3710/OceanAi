@@ -1,0 +1,7 @@
+{
+  "categorization_prompt": "Classify this email into ONE category from this list:\n- meeting (meeting invitations, calendar requests)\n- to-do (action required, tasks to complete)\n- newsletter (subscriptions, marketing emails, product updates)\n- spam (promotional, suspicious, unwanted)\n- urgent (needs immediate attention, deadlines)\n- announcement (company news, general updates)\n- other (everything else)\n\nRespond with ONLY the category word, nothing else.",
+
+  "action_item_prompt": "You MUST output valid JSON only. Extract all tasks from this email. Output format:\n{\n  \"tasks\": [\n    {\n      \"task\": \"...\",\n      \"deadline\": \"... or null\"\n    }\n  ]\n}\nRules:\n- DO NOT add any backticks.\n- DO NOT wrap result in ```json.\n- DO NOT include numbering like 0: or 1:.\n- If no deadline is found, set \"deadline\": null.\n- If no tasks found, output: {\"tasks\": []}\n- Always output valid structured JSON ONLY.",
+
+  "auto_reply_prompt": "Write a polite, concise and brief reply to this email."
+}

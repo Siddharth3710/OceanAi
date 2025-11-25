@@ -1,0 +1,390 @@
+[
+  {
+    "id": "1",
+    "sender": "manager@company.com",
+    "subject": "Sprint Planning Meeting - Tomorrow 10 AM",
+    "timestamp": "2025-01-15T09:30:00",
+    "body": "Hi team,\n\nWe will have our sprint planning meeting tomorrow at 10 AM in the conference room. Please come prepared with your task updates, blockers, and estimates for the next sprint.\n\nThanks,\nEngineering Manager",
+    "category": "meeting",
+    "actions": {
+      "tasks": [
+        {
+          "task": "Come prepared with your task updates, blockers, and estimates for the next sprint.",
+          "deadline": "null"
+        }
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "id": "10",
+    "sender": "recruitment@company.com",
+    "subject": "Interview Panel Availability for Campus Drive",
+    "timestamp": "2025-01-09T09:00:00",
+    "body": "Hello,\n\nWe are scheduling interview panels for the upcoming campus drive on 28–30 January. Please reply with your availability slots and preferred day by Monday.\n\nThanks,\nRecruitment Team",
+    "category": "meeting",
+    "actions": {
+      "tasks": [
+        {
+          "task": "Reply with your availability slots and preferred day by Monday",
+          "deadline": "Monday"
+        }
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "id": "11",
+    "sender": "techteam@customerx.com",
+    "subject": "[URGENT] Production Error in Payment Flow",
+    "timestamp": "2025-01-08T22:15:00",
+    "body": "Hi Support Team,\n\nWe are seeing intermittent failures in the payment flow for high-value transactions. Customers are receiving a generic error message after entering card details.\n\nCan you please investigate this as a priority and share an ETA for the fix?\n\nRegards,\nCustomerX Engineering",
+    "category": "urgent",
+    "actions": {
+      "tasks": [
+        {
+          "task": "Investigate intermittent failures in the payment flow for high-value transactions",
+          "deadline": "null"
+        },
+        {
+          "task": "Share ETA for the fix",
+          "deadline": "null"
+        }
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "id": "12",
+    "sender": "it-support@company.com",
+    "subject": "Laptop Health Check - Book Your Slot",
+    "timestamp": "2025-01-08T13:00:00",
+    "body": "Dear Colleague,\n\nIT will be conducting a routine laptop health check and antivirus scan for all employees. Please use the helpdesk portal to book a 30-minute slot sometime next week.\n\nBest,\nIT Support",
+    "category": "meeting",
+    "actions": {
+      "tasks": []
+    },
+    "status": "success"
+  },
+  {
+    "id": "13",
+    "sender": "newsletter@cloudinsights.com",
+    "subject": "Cloud Insights: Cost Optimization Guide (January Edition)",
+    "timestamp": "2025-01-07T07:45:00",
+    "body": "Hi,\n\nThis month's Cloud Insights newsletter covers cost optimization strategies on AWS, Azure, and GCP, including rightsizing, spot instances, and storage lifecycle policies.\n\nHappy reading,\nCloud Insights Team",
+    "category": "newsletter",
+    "actions": "{\n  \"tasks\": [\n    {\n      \"task\": \"Read the cost optimization guide\",\n      \"deadline\": \"null\"\n    }\n  ]",
+    "status": "success"
+  },
+  {
+    "id": "14",
+    "sender": "sales@random-software-offer.com",
+    "subject": "Last Chance: 95% Discount on Enterprise CRM!!!",
+    "timestamp": "2025-01-07T12:05:00",
+    "body": "Hello,\n\nAct now to get a 95% discount on our all-in-one Enterprise CRM suite. This is your FINAL reminder. Click here to buy before the timer hits 0.\n\nRegards,\nAggressive Sales Bot",
+    "category": "spam",
+    "actions": "{\n  \"tasks\": [\n    {\n      \"task\": \"Act now to get a 95% discount on our all-in-one Enterprise CRM suite\",\n      \"deadline\": \"null\"\n    }\n  ]",
+    "status": "success"
+  },
+  {
+    "id": "15",
+    "sender": "engineering-lead@company.com",
+    "subject": "Code Review Required for Notification Service",
+    "timestamp": "2025-01-06T15:25:00",
+    "body": "Hi,\n\nThe new notification service (email + SMS) is ready for review in the 'feature/notification-service' branch. Please complete the code review and leave comments by Thursday EOD so we can merge before the feature freeze.\n\nThanks,\nEngineering Lead",
+    "category": "to-do",
+    "actions": {
+      "tasks": [
+        {
+          "task": "complete the code review and leave comments",
+          "deadline": "Thursday EOD"
+        }
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "id": "16",
+    "sender": "ops@company.com",
+    "subject": "Incident Postmortem - Outage on 3 January",
+    "timestamp": "2025-01-06T10:40:00",
+    "body": "Team,\n\nWe will conduct a postmortem for the 3 January outage on Friday at 4 PM. Please read the draft incident report in Confluence and add any missing details about impact, root cause, and mitigations.\n\nRegards,\nOperations Team",
+    "category": "announcement",
+    "actions": {
+      "tasks": [
+        {
+          "task": "Add any missing details about impact, root cause, and mitigations",
+          "deadline": "Friday at 4 PM"
+        }
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "id": "17",
+    "sender": "finance@company.com",
+    "subject": "Expense Report Submission for December Travel",
+    "timestamp": "2025-01-05T18:10:00",
+    "body": "Hello,\n\nPlease submit your December travel and client meeting expenses in the finance portal by 12 January. Make sure all bills are attached and correctly categorized.\n\nRegards,\nFinance Team",
+    "category": "meeting",
+    "actions": {
+      "tasks": [
+        {
+          "task": "Submit December travel and client meeting expenses in the finance portal by 12 January",
+          "deadline": "12 January"
+        }
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "id": "18",
+    "sender": "pm@company.com",
+    "subject": "Discovery Call Notes - Analytics Dashboard",
+    "timestamp": "2025-01-05T11:30:00",
+    "body": "Hi Team,\n\nSharing notes from today's discovery call with the client regarding the analytics dashboard. Key asks: custom date ranges, export to CSV, and role-based access.\n\nPlease review and estimate effort for each requirement.\n\nThanks,\nProduct Manager",
+    "category": "to-do",
+    "actions": {
+      "tasks": [
+        {
+          "task": "custom date ranges",
+          "deadline": null
+        },
+        {
+          "task": "export to CSV",
+          "deadline": null
+        },
+        {
+          "task": "role-based access",
+          "deadline": null
+        }
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "id": "19",
+    "sender": "training@company.com",
+    "subject": "Mandatory InfoSec Training - Complete by 25 January",
+    "timestamp": "2025-01-04T09:20:00",
+    "body": "Hi,\n\nYou are required to complete the annual Information Security training by 25 January. The course link is available on the LMS portal. Certificate completion is mandatory.\n\nRegards,\nL&D Team",
+    "category": "urgent",
+    "actions": {
+      "tasks": [
+        {
+          "task": "Complete the annual Information Security training",
+          "deadline": "25 January"
+        }
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "id": "2",
+    "sender": "hr@company.com",
+    "subject": "Submit Your KYC Documents by Friday",
+    "timestamp": "2025-01-14T11:45:00",
+    "body": "Hello,\n\nThis is a reminder to submit your KYC documents and updated bank details by Friday, 17 January, 5 PM so that we can process your payroll without delay.\n\nRegards,\nHR Team",
+    "category": "urgent",
+    "actions": "{\n  \"tasks\": [\n    {\n      \"task\": \"Submit KYC documents and updated bank details\",\n      \"deadline\": \"Friday, 17 January, 5 PM\"\n    }\n  ]",
+    "status": "success"
+  },
+  {
+    "id": "20",
+    "sender": "techteam@startupbeta.io",
+    "subject": "Follow-up: Sandbox Access for API Evaluation",
+    "timestamp": "2025-01-04T16:55:00",
+    "body": "Hello,\n\nJust following up on our previous email about sandbox access. Could you share test credentials so our developers can evaluate your API performance with our staging environment?\n\nBest,\nCTO\nStartupBeta",
+    "category": "meeting",
+    "actions": {
+      "tasks": [
+        {
+          "task": "Share test credentials so our developers can evaluate your API performance with our staging environment.",
+          "deadline": null
+        }
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "id": "21",
+    "sender": "teamlead@company.com",
+    "subject": "Weekly Status Update - Frontend Squad",
+    "timestamp": "2025-01-03T19:00:00",
+    "body": "Hi Frontend Team,\n\nPlease send your weekly status update (what you completed, what is in progress, blockers) by today 7 PM so that I can consolidate and share with management.\n\nThanks,\nTeam Lead",
+    "category": "to-do",
+    "actions": "{\n  \"tasks\": [\n    {\n      \"task\": \"Send weekly status update by today 7 PM\",\n      \"deadline\": \"today 7 PM\"\n    }\n  ]",
+    "status": "success"
+  },
+  {
+    "id": "22",
+    "sender": "support@toolvendor.com",
+    "subject": "License Renewal Reminder - Monitoring Tool",
+    "timestamp": "2025-01-03T08:35:00",
+    "body": "Dear Customer,\n\nYour license for the monitoring tool \"WatchTower Pro\" will expire on 1 February. Please renew your subscription or contact our sales team to discuss enterprise plans.\n\nBest regards,\nSupport Team\nToolVendor",
+    "category": "meeting",
+    "actions": {
+      "tasks": [
+        {
+          "task": "Renew subscription or contact sales team",
+          "deadline": "1 February"
+        }
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "id": "23",
+    "sender": "ceo@company.com",
+    "subject": "Quarterly All-Hands Meeting Announcement",
+    "timestamp": "2025-01-02T10:15:00",
+    "body": "Hi Everyone,\n\nWe will host our quarterly all-hands meeting on 30 January at 4 PM. We will review company performance, key wins, and roadmap for the next quarter.\n\nPlease block your calendars.\n\nBest,\nCEO",
+    "category": "announcement",
+    "actions": {
+      "tasks": [
+        {
+          "task": "Block calendars",
+          "deadline": "30 January at 4 PM"
+        }
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "id": "24",
+    "sender": "automation@company.com",
+    "subject": "[Reminder] Update Your OKRs for Q1",
+    "timestamp": "2025-01-02T17:45:00",
+    "body": "Hello,\n\nThis is an automated reminder to update your Objectives and Key Results (OKRs) for Q1 in the performance portal. Managers will start reviews next week.\n\nRegards,\nPeople Operations",
+    "category": "meeting",
+    "actions": {
+      "tasks": [
+        {
+          "task": "Update your Objectives and Key Results (OKRs) for Q1 in the performance portal",
+          "deadline": "null"
+        }
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "id": "3",
+    "sender": "client@finteksolutions.com",
+    "subject": "Request for Updated API Documentation",
+    "timestamp": "2025-01-13T16:20:00",
+    "body": "Hello Team,\n\nCould you please share the updated API documentation for the new authentication and webhooks module? Our integration team is planning a release next week and needs the latest endpoints and error codes.\n\nBest regards,\nProduct Owner\nFintek Solutions",
+    "category": "to-do",
+    "actions": "{\n  \"tasks\": [\n    {\n      \"task\": \"Share the updated API documentation for the new authentication and webhooks module\",\n      \"deadline\": \"null\"\n    }\n  ]",
+    "status": "success"
+  },
+  {
+    "id": "4",
+    "sender": "newsletter@saasweekly.com",
+    "subject": "🔥 SaaS Weekly: 7 Product Metrics You Should Track",
+    "timestamp": "2025-01-12T08:05:00",
+    "body": "Hi there,\n\nIn this week's newsletter, we cover the 7 most important product metrics, case studies from top SaaS companies, and a breakdown of PLG growth strategies.\n\nRead the full article on our blog.\n\nCheers,\nSaaS Weekly Team",
+    "category": "newsletter",
+    "actions": {
+      "tasks": []
+    },
+    "status": "success"
+  },
+  {
+    "id": "5",
+    "sender": "security-alerts@company.com",
+    "subject": "[Action Required] Reset Your VPN Password",
+    "timestamp": "2025-01-12T18:25:00",
+    "body": "Dear Employee,\n\nAs part of our regular security rotation, all employees must reset their VPN password by 20 January. Please use the corporate password portal and avoid reusing old passwords.\n\nIf you face any issues, contact IT Support.\n\nThanks,\nSecurity Operations",
+    "category": "urgent",
+    "actions": "{\n  \"tasks\": [\n    {\n      \"task\": \"Reset VPN password by 20 January\",\n      \"deadline\": \"20 January\"\n    }\n  ]",
+    "status": "success"
+  },
+  {
+    "id": "6",
+    "sender": "noreply@randomprize-luckywinner.com",
+    "subject": "Congratulations! You Won a Free iPhone 16!!!",
+    "timestamp": "2025-01-11T03:40:00",
+    "body": "Congratulations!!!\n\nYou have been selected as the LUCKY WINNER of a brand new iPhone 16 Pro Max. Click this link immediately to claim your prize: http://fake-link.win-now.example\n\nHurry, this offer expires in 2 hours!\n\n-- Automated System",
+    "category": "spam",
+    "actions": {
+      "tasks": [
+        {
+          "task": "Respond ONLY with valid JSON.",
+          "deadline": "null"
+        },
+        {
+          "task": "Do NOT use backticks or markdown.",
+          "deadline": "null"
+        },
+        {
+          "task": "Do NOT include numbering like 0: or 1:.",
+          "deadline": "null"
+        },
+        {
+          "task": "If no deadline is found, set deadline: null.",
+          "deadline": "null"
+        },
+        {
+          "task": "If no tasks found, output: {\"tasks\": []}.",
+          "deadline": "null"
+        },
+        {
+          "task": "Always output valid structured JSON ONLY.",
+          "deadline": "null"
+        }
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "id": "7",
+    "sender": "designlead@company.com",
+    "subject": "Landing Page Redesign - Feedback Required",
+    "timestamp": "2025-01-11T14:10:00",
+    "body": "Hi,\n\nThe design team has prepared two variations of the new landing page for the analytics product. Please review the Figma links and share feedback on copy, layout, and CTA placement by Wednesday.\n\nRegards,\nDesign Lead",
+    "category": "meeting",
+    "actions": {
+      "tasks": [
+        {
+          "task": "Review Figma links and provide feedback on copy, layout, and CTA placement by Wednesday.",
+          "deadline": "Wednesday"
+        }
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "id": "8",
+    "sender": "devops@company.com",
+    "subject": "[Planned Maintenance] Staging Environment Downtime",
+    "timestamp": "2025-01-10T10:00:00",
+    "body": "Team,\n\nThe staging environment will be unavailable on Saturday, 18 January, from 11 PM to 1 AM IST for scheduled maintenance and database upgrades.\n\nPlease plan your testing activities accordingly.\n\nThanks,\nDevOps Team",
+    "category": "announcement",
+    "actions": {
+      "tasks": [
+        {
+          "task": "Plan testing activities",
+          "deadline": "null"
+        }
+      ]
+    },
+    "status": "success"
+  },
+  {
+    "id": "9",
+    "sender": "product@company.com",
+    "subject": "Feature Freeze for Q1 Release",
+    "timestamp": "2025-01-09T17:30:00",
+    "body": "Hi all,\n\nWe are announcing a feature freeze for the Q1 release starting 22 January. Only bug fixes and high-priority issues will be accepted after this date.\n\nPlease ensure your user stories are either completed or moved to the next sprint.\n\nRegards,\nProduct Team",
+    "category": "announcement",
+    "actions": {
+      "tasks": [
+        {
+          "task": "Please ensure your user stories are either completed or moved to the next sprint.",
+          "deadline": "22 January"
+        }
+      ]
+    },
+    "status": "success"
+  }
+]
