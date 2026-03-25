@@ -6,6 +6,7 @@ load_dotenv()
 
 # ------------ API KEYS ------------
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
+# commit the changes
 
 if not OPENROUTER_API_KEY:
     raise RuntimeError("Missing OPENROUTER_API_KEY in .env")
